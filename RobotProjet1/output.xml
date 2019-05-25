@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190525 15:05:00.903" generator="Robot 3.1.1 (Python 2.7.12 on win32)">
+<suite source="C:\Users\MECA AUTO\Desktop\robot_util\eclipe_workspace\RobotProjet1" id="s1" name="RobotProjet1">
+<suite source="C:\Users\MECA AUTO\Desktop\robot_util\eclipe_workspace\RobotProjet1\TestSuite1.robot" id="s1-s1" name="TestSuite1">
+<test id="s1-s1-t1" name="Test1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://espaceclient.orange.sn</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190525 15:05:01.446" level="INFO">Opening browser 'chrome' to base url 'https://espaceclient.orange.sn'.</msg>
+<status status="PASS" endtime="20190525 15:05:13.966" starttime="20190525 15:05:01.445"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20190525 15:05:15.968" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190525 15:05:15.968" starttime="20190525 15:05:13.967"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=login</arg>
+<arg>moussa</arg>
+</arguments>
+<msg timestamp="20190525 15:05:15.970" level="INFO">Typing text 'moussa' into text field 'name=login'.</msg>
+<status status="PASS" endtime="20190525 15:05:16.308" starttime="20190525 15:05:15.969"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=pwd</arg>
+<arg>12345</arg>
+</arguments>
+<msg timestamp="20190525 15:05:16.310" level="INFO">Typing password into text field 'name=pwd'.</msg>
+<status status="PASS" endtime="20190525 15:05:16.543" starttime="20190525 15:05:16.309"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>name=envoyer</arg>
+</arguments>
+<msg timestamp="20190525 15:05:16.545" level="INFO">Clicking button 'name=envoyer'.</msg>
+<status status="PASS" endtime="20190525 15:05:18.611" starttime="20190525 15:05:16.544"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Mot de passe incorrect</arg>
+</arguments>
+<msg timestamp="20190525 15:05:19.443" level="INFO">Current page contains text 'Mot de passe incorrect'.</msg>
+<status status="PASS" endtime="20190525 15:05:19.444" starttime="20190525 15:05:18.612"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20190525 15:05:22.445" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190525 15:05:22.445" starttime="20190525 15:05:19.445"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190525 15:05:26.504" starttime="20190525 15:05:22.446"></status>
+</kw>
+<status status="PASS" endtime="20190525 15:05:26.505" critical="yes" starttime="20190525 15:05:01.442"></status>
+</test>
+<status status="PASS" endtime="20190525 15:05:26.508" starttime="20190525 15:05:01.057"></status>
+</suite>
+<status status="PASS" endtime="20190525 15:05:26.514" starttime="20190525 15:05:01.017"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RobotProjet1" pass="1">RobotProjet1</stat>
+<stat fail="0" id="s1-s1" name="TestSuite1" pass="1">RobotProjet1.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
