@@ -14,6 +14,7 @@ Test1
     Click Button      name=envoyer
     Page Should Contain    Mot de passe incorrect   
     Sleep    3
+    Log     utilisateur inexistant
     Close Browser
 Test2
     # senario du test2  : rester sur la page et faire une connexion aves des parametres valides 
